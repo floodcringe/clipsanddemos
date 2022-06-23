@@ -5,39 +5,45 @@
 		<meta charset="utf-8" />
 		<title>Clips and Demos DB</title>
 		<link rel = "stylesheet" type="text/css" href="./assets/bootstrap.css" />
+        <link rel = "stylesheet" type="text/css" href="./assets/style.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-        <header> <!--header-->
-            <span>CLIPS</span>
-            <span>DEMOS</span>
-            <span>ABOUT</span>
-            <span>SUBMIT</span>
-        </header>
-        <h1>Clips and Demos DB</h1>
-        <div class="search">
-            <div class="filterbar">
-                <!--filters go here-->
+        <div class="page">
+            <header> <!--header-->
+                <span><a>CLIPS</a></span>
+                <span><a>DEMOS</a></span>
+                <span><a>ABOUT</a></span>
+                <span><a>SUBMIT</a></span>
+            </header>
+            <h1>Clips and Demos DB</h1>
+            <div class="search">
+                <div class="filterbar">
+                    <div class="author"></div>
+                    <div class="game"></div>
+                    <div class="rating"></div>
+                    <div class="verified"></div>
+                </div>
             </div>
-        </div>
-        <div style="position:relative;height:3700px">
-            <table class="demolist">
-                <thead class="head"> <!--table header-->
-                    <tr>
-                        <th class="title">Title</th>
-                        <th class="game">Game</th>
-                        <th class="author">Author</th>
-                        <th class="link">Clips Link</th>
-                        <th class="rating">Rating</th>
-                        <th class="CamDataIncluded">Camera Data Included</th>
-                        <th class="Verified">Verified</th>
-                        <th class="tags">Tags</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!--table goes here-->
-                </tbody>
-            </table>
+            <div style="position:relative;height:3700px;">
+                <table class="demolist">
+                    <thead class="head"> <!--table header-->
+                        <tr>
+                            <th class="title">Title</th>
+                            <th class="game">Game</th>
+                            <th class="author">Author</th>
+                            <th class="link">Clips Link</th>
+                            <th class="rating">Rating</th>
+                            <th class="CamDataIncluded">Camera Data Included</th>
+                            <th class="Verified">Verified</th>
+                            <th class="tags">Tags</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--table goes here-->
+                    </tbody>
+                </table>
+            </div>
         </div>
     </body>
 </html>
